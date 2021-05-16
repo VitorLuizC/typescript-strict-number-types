@@ -28,3 +28,7 @@ pnpmfile.js
 # Log's files.
 *.log
 *.log.*
+
+# Generated bundles, type declarations and source-maps.
+dist/
+types/

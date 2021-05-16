@@ -3,8 +3,8 @@
  * brand type, an intersection of structural type and the type data.
  */
 type Brand<Type, Name extends string> = Type & {
-  readonly _id?: unique symbol;
-  readonly _name?: Name;
+  readonly _id: unique symbol;
+  readonly _name: Name;
 };
 
 export default Brand;
